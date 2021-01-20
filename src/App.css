@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Nav Bar */
+nav {
+  height: 4rem;
+  background: #131921;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  color: azure;
 }
 
-.App-link {
-  color: #61dafb;
+nav img {
+  height: 2rem;
+  margin: 1rem 0rem 0rem 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav .deliver {
+  margin: 0.6rem 0rem 0rem 1rem;
+  font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.deliver .light {
+  color: rgb(182, 182, 182);
+  font-size: 0.7rem;
+}
+
+.deliver .location {
+  font-size: 0.8rem;
+  color: rgb(235, 235, 235);
+  font-weight: bold;
+}
+
+input.search {
+  line-height: 2.2rem;
+  margin: 0.8rem 0rem 0rem 2rem;
+  width: 50vw;
+  border: none;
+}
+
+button.searchBtn {
+  line-height: 2.2rem;
+  margin: 1px;
+  border: none;
+  width: 2vw;
+  background-color: orange;
 }
