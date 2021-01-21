@@ -14,8 +14,8 @@ nav {
 }
 
 nav img {
-  height: 2rem;
-  margin: 1rem 0rem 0rem 1rem;
+  height: 6rem;
+  transform: translateY(-10px);
 }
 
 nav .deliver {
@@ -47,4 +47,42 @@ button.searchBtn {
   border: none;
   width: 2vw;
   background-color: orange;
+}
+
+span.country img {
+  height: 1.8rem;
+  transform: translateY(0);
+  margin: 1rem 0rem 0rem 1rem;
+}
+
+.account {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.account .topText {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.account .bottomText, .cartText {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart img {
+  height: 2.6rem;
+  margin: 1.4rem 0rem 0rem 1rem;
+}
+
+.cartText {
+  margin: 1.5rem 0rem;
 }
